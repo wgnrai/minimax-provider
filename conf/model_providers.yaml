@@ -1,0 +1,10 @@
+# MiniMax provider for wgnr.ai
+# Provider ID 'minimax' automatically maps to MINIMAX_API_KEY
+chat:
+  minimax:
+    name: MiniMax
+    litellm_provider: openai
+    models_list:
+      endpoint_url: "https://api.minimax.io/v1/models"
+    kwargs:
+      api_base: https://api.minimax.io/v1
